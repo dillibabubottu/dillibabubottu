@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+
+            <ImageView
+                android:layout_marginTop="@dimen/width_100_dip"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/iv_profilePic"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ic_crop_original_black_24dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_name"
+        android:text="cxc"
+        android:drawableLeft="@drawable/ic_favorite_black_24dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/extra_large_text"
+        android:textColor="@color/secondaryTextColor"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_phone"
+        android:text="cxc"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/ic_phone_black_24dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/extra_large_text"
+        android:textColor="@color/secondaryTextColor"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_email"
+        android:text="cxc"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/ic_email_black_24dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/extra_large_text"
+        android:textColor="@color/secondaryTextColor"
+        />
+
+
+</LinearLayout>

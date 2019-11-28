@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="secondaryDarkColor">#005a87</color>
+    <color name="divider_line">#1e000000</color>
+    <color name="primaryLightColor">#5467bf</color>
+    <color name="WHITE">#FFFFFF</color>
+    <color name="secondaryTextColor">#000000</color>
+    <color name="rippleColor">@color/primaryLightColor</color>
+    <color name="gradient_start">#5770f3</color>
+    <color name="gradient_end">#8e5aeb</color>
+    <color name="profile_desc">#D1D1FF</color>
+    <color name="bg_meta_container">#000000</color>
+    <color name="profile_default_tint">#e0e0e0</color>
+
+</resources>
